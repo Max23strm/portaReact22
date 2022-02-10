@@ -1,0 +1,16 @@
+.socialVertical{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: fixed;
+    bottom: 3rem;
+    left: 3rem;
+}
+
+.socialVertical img{
+    width: 45px;
+}
+.socialVertical img:first-child{
+    margin-bottom: 2rem;
+
+}

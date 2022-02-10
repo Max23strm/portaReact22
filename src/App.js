@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import NavRoutes from './routes/NavRoutes';
+import data from './context/info.json'
+import { useEffect, useState } from 'react';
+import UserFirebase from './hooks/UserFirebase';
 
 function App() {
+  const {proyectos,fetchGetDataCollection}=UserFirebase()
+  const [darkMode, setDarkMode]= useState("")
+  
+  useEffect(()=>{
+    fetchGetDataCollection()
+    //eslint-disable-next-line
+},[]) 
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`${darkMode}  App`}>
+      <NavRoutes data={data} proyectos={proyectos} darkMode={darkMode} setDarkMode={setDarkMode}/>
     </div>
   );
 }

@@ -1,0 +1,87 @@
+.mainDetalles{
+    padding-top: 10vh;
+    background-color: #649173;
+    height: 100vh;
+}
+
+.detalles{
+    background-color: #486652;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    min-height: 80vh;
+    margin: 2rem auto;
+    border-radius: 50px;
+}
+.detalles h3, .detallesdark h3{
+    font-size: 2.5rem;
+    margin:3rem 5rem;
+    color: #CBCBCB;
+    text-align: left;
+}
+
+.conjunto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin: 2rem 5rem;
+    align-items: center;
+}
+
+.conjunto img{
+    border-radius: 50px;
+    width: 100%;
+}
+
+.conjunto .descripcion p{
+    font-family: Righteous;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.conjunto .descripcion .tecnologias{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1rem auto;
+}
+
+.conjunto .descripcion .tecnologias .tecno{ 
+    background-color: #30452F;
+    padding: .5rem .3rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    flex-direction: row;
+}
+
+.conjunto .descripcion a{
+    margin: 2rem 0;  
+}
+.conjunto .descripcion a:hover{
+    cursor: pointer;
+}
+
+/* DARK MODE */
+.mainDetallesdark{
+    padding-top: 10vh;
+    background-color: #1a1a1a;
+    height: 100vh;
+}
+.detallesdark{
+    background-color: #486652;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    min-height: 80vh;
+    margin: 2rem auto;
+    border-radius: 50px;
+}
+.conjunto .descripcion .tecnologias .tecnodark{ 
+    background-color: #1a1a1a;
+    padding: .5rem .3rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    flex-direction: row;
+}

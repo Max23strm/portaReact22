@@ -1,0 +1,130 @@
+{
+    "proyectos":[
+        {
+            "id":1,
+            "nombre":"La Casaca",
+            "tipo": "ecommerce",
+            "tecnologias":[
+                "react"
+            ],
+            "plataforma":"Coderhouse",
+            "link":"lacasaca-ecommerce.netlify.app/"
+        },
+        {
+            "id":2,
+            "nombre":"Restaurante Indio",
+            "tipo": "ecommerce",
+            "tecnologias":[
+                "react"
+            ],
+            "plataforma":"Udemy",
+            "link":"https://sleepy-gates-a40773.netlify.app"
+        },
+        {
+            "id":3,
+            "nombre":"Weather App",
+            "tipo": "aplicacion",
+            "tecnologias":[
+                "react"
+            ],
+            "plataforma":"Udemy",
+            "link":"https://sleepy-gates-a40773.netlify.app"
+        }
+    ],
+    "educacion":[
+        {
+            "id":"edu1",
+            "nombre":"Coderhouse",
+            "cursos":[
+                {
+                    "nombre":"ReactJS",
+                    "inicio":"Noviembre 2021",
+                    "final":"Enero 2022"
+                }
+            ]
+        },
+        {
+            "id":"edu2",
+            "nombre":"Udemy",
+            "cursos":[
+                {
+                    "nombre":"30 day React bootcamp",
+                    "inicio":"Septiembre 2021",
+                    "final":"Actualidad"
+                }
+            ]
+        },
+        {
+            "id":"edu3",
+            "nombre":"FronEnd Masters",
+            "cursos":[
+                {
+                    "nombre":"Profesional path",
+                    "inicio":"Agosto 2021",
+                    "final":"Actualidad",
+                    "compuesto":[
+                        {"nombre":"Javascript: The Hard Parts, V2",
+                        "profesor":"Will Sentance"},
+                        {"nombre":"Complete Intro to React, V6",
+                        "profesor":"Brian Holt"}
+                    ]
+                    
+                },
+                {
+                    "nombre":"Begginer path",
+                    "inicio":"Septiembre 2020",
+                    "final":"Febrero 2021",
+                    "compuesto":[
+                        {"nombre":"Complete Intro to Web Development, V2",
+                        "profesor":"Brian Holt"},
+                        {"nombre":"Getting Started with Javascript, V2",
+                        "profesor":"Kyle Simpson"},
+                        {"nombre":"Javascript: From Fundamentals to Functional, V2",
+                        "profesor":"Bianca Gandolfo"},
+                        {"nombre":"Website Accesibility, V2",
+                        "profesor":"Jon Kuperman"}
+                    ]
+                },
+                {
+                    "nombre":"Creative Coding with Canvas & WebGL",
+                    "incio":"Febrero 2021",
+                    "final":"Marzo 2021"
+                },
+                {
+                    "nombre":"Bootcamp",
+                    "inicio":"Febrero 2020",
+                    "final":"Febrero 2020"
+                }
+            ]
+        },
+        {
+            "id":"edu4",
+            "nombre":"LinkedIn Learning",
+            "cursos":[
+                {
+                    "nombre": "Conviertete en un desarrollador web FullStack",
+                    "inicio": "Febrero 2019",
+                    "final":"Actualidad",
+                    "compuesto":[
+                        {
+                            "nombre":"Fundamentos del desarrollo web: Full Stack o Front-end",
+                            "profesor":"Sergio Brito y Ray Villalobos"
+                        },
+                        {
+                            "nombre":"Javascript escencial",
+                            "profesor":"Sergio Brito"
+                        },
+                        {
+                            "nombre":"Javascript avanzado, buenas prácticas",
+                            "profesor":"Sergio Brito"
+                        },
+                        {
+                            "nombre":"JavaScript avanzado: Expresiones regulares",
+                            "profesor":"Sergio Brito"
+                        }   
+                    ]
+                }
+            ]
+        }
+    ]
+}

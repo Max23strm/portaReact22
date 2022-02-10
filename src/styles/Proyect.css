@@ -1,0 +1,160 @@
+.proyectView{
+    min-width: 300px;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: #649173;
+    box-shadow: -20px 20px 60px #557b62,
+                20px -20px 60px #73a784;
+
+}
+.proyectView:hover, .educationView:hover{
+    cursor:pointer;
+    background: rgb(106, 155, 122)
+}
+.proyectDetalles{
+    margin: 3rem auto;
+}
+.proyectDetalles h2{
+    color: #FFF;
+}
+.proyectDetalles h4{
+    color: #30452F;
+}
+.proyectDetalles .proyectTecno{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.proyectDetalles .proyectTecno p{
+    border: none;
+    border-radius: 50px;
+    background: #30452F;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    color:#649173 ;
+    margin: 0;
+}
+.educationView{
+    width: 90%;
+    min-height: 150px;
+    border-radius: 50px;
+    background: #649173;
+    box-shadow: -20px 20px 60px #557b62,
+                20px -20px 60px #73a784;
+    margin-bottom: 2rem;
+}
+.educationDetalles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+.educationDetalles h2{
+    color: #FFF;
+}
+.educationDetalles .cursosProyect{
+    display: flex;
+    flex-direction: column;
+    background-color: #30452F;
+    border-radius: 25px;
+    margin: .5rem 0;
+}
+.educationDetalles .cursosProyect h5{
+    color: #fff;
+    font-size: 1.4rem;
+}
+.educationDetalles .cursosProyect .enCurso{
+    font-weight:400;
+    color:#649173 ;
+}
+.educationDetalles .cursosProyect .cursoFinalizado{
+    border-radius: 50px;
+    background: #30452F;
+    font-weight: bold;
+    color:#649173 ;
+}
+
+/* DARKMODE */
+
+.proyectViewdark{
+    min-width: 300px;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: #1a1a1a;
+    box-shadow:  20px 20px 60px #161616,
+                -20px -20px 60px #1e1e1e;
+                
+            }
+            
+.educationViewdark{
+    width: 90%;
+    min-height: 150px;
+    border-radius: 50px;
+    background: #1a1a1a;
+    box-shadow:  20px 20px 60px #161616,
+                -20px -20px 60px #1e1e1e;
+    margin-bottom: 2rem;
+}
+
+.educationDetallesdark .cursosProyectdark .cursoFinalizadodark{
+    border-radius: 50px;
+    /* background: #30452F; */
+    font-weight: bold;
+    color:#649173 ;
+}
+
+.proyectViewdark:hover, .educationViewdark:hover{
+    cursor:pointer;
+    background: #252525
+}
+.proyectDetallesdark{
+    margin: 3rem auto;
+}
+.proyectDetallesdark h2{
+    color: #FFF;
+}
+.proyectDetallesdark h4{
+    color: #30452F;
+}
+.proyectDetalles .proyectTecno{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.proyectDetallesdark .proyectTecnodark p{
+    border: none;
+    border-radius: 50px;
+    /* background: #30452F; */
+    padding: .5rem 1rem;
+    font-weight: bold;
+    color:#649173 ;
+    margin: 0;
+}
+.educationDetallesdark{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+.educationDetallesdark h2{
+    color: #FFF;
+}
+.educationDetallesdark .cursosProyectdark{
+    display: flex;
+    flex-direction: column;
+    background-color: #1e2b1d;
+    border-radius: 25px;
+    margin: .5rem 0;
+}
+.educationDetallesdark .cursosProyectdark h5{
+    color: #fff;
+    font-size: 1.4rem;
+}
+.educationDetallesdark .cursosProyectdark .enCursodark{
+    font-weight:400;
+    color:#649173 ;
+}

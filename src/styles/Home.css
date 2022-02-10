@@ -1,0 +1,26 @@
+.home{
+    height: 100vh;
+    background: #649173;
+    background: linear-gradient(to bottom, #dbd5a4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+}
+
+.home h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #30452F;
+    font-family: Righteous;
+    font-size: 9rem;
+    margin-top: 0;
+}
+
+.dark{
+    background: #649173;
+    background: linear-gradient(to top, #1A1A1A, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+}
+.dark h1{
+    color: #709370;
+}

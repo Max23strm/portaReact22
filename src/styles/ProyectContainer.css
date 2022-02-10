@@ -1,0 +1,59 @@
+.proyectContainer, .educationContainer{
+    min-height: 100vh;
+    height: fit-content;
+    padding: 2rem 10rem;
+    background-color: #649173 ;
+}
+.proyectContainer h3, .educationContainer h3{
+    text-align: left;
+    margin: 0;
+    /* margin-left: 2rem; */
+    font-family: Righteous;
+    font-size: 1.5rem;
+    color: #30452F;
+}
+.proyectContainer .proyectNest{
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 2.5rem;
+}
+.educationContainer .educationNest{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    align-items: center;
+}
+
+             /* DARK MODE */
+
+.proyectContainerdark, .educationContainerdark{
+    min-height: 100vh;
+    height: fit-content;
+    padding: 2rem 10rem;
+    background-color: #1a1a1a ;
+}
+
+.proyectContainerdark h3, .educationContainerdark h3{
+    text-align: left;
+    margin: 0;
+    /* margin-left: 2rem; */
+    font-family: Righteous;
+    font-size: 1.5rem;
+    color: #30452F;
+}
+
+.proyectContainerdark .proyectNestdark{
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 2.5rem;
+}
+.educationContainerdark .educationNestdark{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    align-items: center;
+}
